@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://example.com/</loc>
-  </url>
-  <url>
-    <loc>https://example.com/index.html</loc>
-  </url>
-  <url>
-    <loc>https://example.com/about.html</loc>
-  </url>
-  <url>
-    <loc>https://example.com/services.html</loc>
-  </url>
-  <url>
-    <loc>https://example.com/projects.html</loc>
-  </url>
-  <url>
-    <loc>https://example.com/contact.html</loc>
-  </url>
+  <url><loc>https://example.com/</loc></url>
+  <url><loc>https://example.com/index.html</loc></url>
+  <url><loc>https://example.com/about.html</loc></url>
+  <url><loc>https://example.com/services.html</loc></url>
+  <url><loc>https://example.com/services/fassadenbau.html</loc></url>
+  <url><loc>https://example.com/services/klinkerarbeiten.html</loc></url>
+  <url><loc>https://example.com/services/sanierung.html</loc></url>
+  <url><loc>https://example.com/services/renovierung.html</loc></url>
+  <url><loc>https://example.com/services/fliesenarbeiten.html</loc></url>
+  <url><loc>https://example.com/projects.html</loc></url>
+  <url><loc>https://example.com/projects/project-detail.html</loc></url>
+  <url><loc>https://example.com/contact.html</loc></url>
+  <url><loc>https://example.com/impressum.html</loc></url>
+  <url><loc>https://example.com/datenschutz.html</loc></url>
+  <url><loc>https://example.com/404.html</loc></url>
 </urlset>

@@ -10,6 +10,15 @@
     content="DN Bau GmbH bietet professionelle Fassadenarbeiten, Sanierungen, Renovierungen und Fliesenarbeiten."
   >
 
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="DN Bau GmbH — Fassadenbau & Sanierung">
+  <meta property="og:description" content="Professionelle Fassadenarbeiten, Sanierungen und Renovierungen.">
+  <meta property="og:image" content="https://example.com/img/cover/Dn_bauuntermehmung_cover.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="DN Bau GmbH — Fassadenbau & Sanierung">
+  <meta name="twitter:description" content="Professionelle Fassadenarbeiten, Sanierungen und Renovierungen.">
+
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
     rel="stylesheet"
@@ -20,6 +29,11 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo/DNBauGmbHlogo.png">
+  <link rel="canonical" href="https://example.com/index.html">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"DN Bau GmbH","url":"https://example.com","logo":"https://example.com/img/logo/DNBauGmbHlogo.png"}
+  </script>
 </head>
 
 <body>
@@ -28,7 +42,7 @@
     <nav class="navbar navbar-expand-lg bg-white shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo/DNBauGmbHlogo.png" alt="DN Bau GmbH" height="40" class="d-inline-block align-text-top">
+          <img src="img/logo/DNBauGmbHlogo.png" alt="DN Bau GmbH" height="40" class="d-inline-block align-text-top" decoding="async">
           <span class="visually-hidden">DN Bau GmbH</span>
         </a>
 
@@ -87,7 +101,7 @@
 
           <div class="col-md-6 mt-4 mt-md-0">
             <figure class="mb-0">
-              <img src="img/cover/Dn_bauuntermehmung_cover.jpg" alt="Bauarbeiter bei Fassadenarbeiten" class="img-fluid rounded shadow-sm" />
+              <img src="img/cover/Dn_bauuntermehmung_cover.jpg" alt="Bauarbeiter bei Fassadenarbeiten" class="img-fluid rounded shadow-sm" loading="lazy" decoding="async" srcset="img/cover/Dn_bauuntermehmung_cover.jpg 1x" sizes="(max-width: 768px) 100vw, 50vw" />
               <figcaption class="visually-hidden">Bauarbeiter führen Fassadenarbeiten aus</figcaption>
             </figure>
           </div>

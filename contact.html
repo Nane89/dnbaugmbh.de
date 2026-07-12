@@ -5,15 +5,20 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Kontakt — DN Bau GmbH</title>
   <meta name="description" content="Kontaktieren Sie DN Bau GmbH für Projektanfragen, Angebote und Beratung.">
+  <meta property="og:title" content="Kontakt — DN Bau GmbH">
+  <meta property="og:description" content="Kontaktieren Sie uns für Projektanfragen und Angebote.">
+  <meta name="twitter:card" content="summary">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo/DNBauGmbHlogo.png">
+  <link rel="canonical" href="https://example.com/contact.html">
 </head>
 <body>
   <header>
     <nav class="navbar navbar-expand-lg bg-white shadow-sm">
       <div class="container">
-        <a class="navbar-brand" href="index.html"><img src="img/logo/DNBauGmbHlogo.png" alt="DN Bau GmbH" height="48"></a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo/DNBauGmbHlogo.png" alt="DN Bau GmbH" height="48" decoding="async"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Navigation öffnen">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +44,10 @@
 
       <div class="row g-4">
         <div class="col-lg-7">
-          <form id="contact-form" class="card p-4 shadow-sm" action="" method="post" novalidate>
+          <form id="contact-form" class="card p-4 shadow-sm" action="https://formspree.io/f/your-form-id" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="Neue Anfrage über Website">
+            <input type="hidden" name="_next" value="https://example.com/thank-you.html">
+            <input type="hidden" name="_captcha" value="false">
             <div class="mb-3">
               <label for="name" class="form-label">Name</label>
               <input type="text" class="form-control" id="name" name="name" required>
@@ -55,6 +63,9 @@
             <div class="mb-3">
               <button class="btn btn-primary" type="submit">Nachricht senden</button>
             </div>
+            <noscript>
+              <p class="text-danger small">JavaScript ist deaktiviert. Bitte senden Sie Ihre Anfrage per E-Mail an <a href="mailto:info@example.com">info@example.com</a>.</p>
+            </noscript>
           </form>
         </div>
 
