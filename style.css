@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+/* Services card hover and icon animation */
+.service-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12) !important;
+}
+
+.service-card .bi {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover .bi {
+  transform: scale(1.08);
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  .service-card,
+  .service-card .bi {
+    transition: none;
+  }
+
+  .service-card:hover,
+  .service-card:hover .bi {
+    transform: none;
+  }
+}
