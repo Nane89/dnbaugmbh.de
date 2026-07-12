@@ -154,7 +154,7 @@ footer .small-note{margin-top:1rem;color:rgba(255,255,255,0.7);font-size:.9rem}
   .btn.w-sm-auto {
     width: auto;
   }
-}
+
 
 @media (max-width: 575.98px) {
   .navbar {
